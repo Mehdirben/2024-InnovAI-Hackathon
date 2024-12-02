@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class HuggingFaceService {
-  final String apiKey = "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"; // Hugging Face API key
+  final String apiKey = "your_hugging_face_api"; // Hugging Face API key
   final String xrayModelId = "lxyuan/vit-xray-pneumonia-classification"; // X-Ray model ID
   final String mixtralModelId = "mistralai/Mixtral-8x7B-Instruct-v0.1"; // Text generation model ID
   final String translationModelId = "atlasia/Terjman-Ultra"; // English-to-Darija translation model ID
